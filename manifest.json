@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+	"icons": {
+	  "48": "icon.png",
+	  "128": "icon128.png"
+  },
+  "name": "Brady's Meat & Deli button",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "mparker17@536298.no-reply.drupal.org"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+	
+	"permissions": [
+    "tabs"
+  ],
+	
+  "browser_action": {
+    "default_title": "Brady's Meat & Deli button",
+		"default_icon": {
+      "19": "button.png",
+      "38": "button38.png"
+    }
+  }
+}
